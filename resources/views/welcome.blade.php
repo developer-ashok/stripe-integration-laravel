@@ -155,6 +155,7 @@ cursor:pointer;
 		    <li>10 Domains</li>
 		    <li>1GB Bandwidth</li>
 		    <li class="grey">
+				<input type="hidden" name="amount" id="amount" value="9.99" />
 				<input type="submit" id="submit-btn" name="submit-btn" value="Pay" class="button" />
 
 			</li>
@@ -217,7 +218,7 @@ cursor:pointer;
                                         var handler = StripeCheckout.configure({
                                             //Replace it with your stripe publishable key
                                             key: 'pk_test_tzo2iEgfI9AfUKkNwhA8Fwio',
-                                            image: 'https://scpillai.com/frontend/img/logo.png',
+                                            image: 'https://networkprogramming.files.wordpress.com/2018/10/twitter.png',
                                             allowRememberMe: false,
                                             token: handleStripeToken
                                         });
@@ -229,9 +230,9 @@ cursor:pointer;
                                                 return false;
                                             }
                                             handler.open({
-                                                name: 'SCPILLAI.COM',
-                                                description: 'INNOVATING FOR GROWTH',
-                                                amount: (parseInt($("#amount").val()) * 100)
+                                                name: 'Laravel Stripe Payment',
+                                                description: 'Basic Plan',
+                                                amount: ($("#amount").val() * 100)
                                             });
                                             return false;
 //});
