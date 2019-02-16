@@ -19,7 +19,7 @@ class PaymentLogs extends Model
      * @var array
      */
     protected $fillable = [
-        'amount','charge_id','stripe_id', 'quantity'
+        'amount','charge_id','stripe_id', 'quantity', 'plan'
     ];
         
 }

@@ -48,6 +48,7 @@ class PaymentController extends Controller
                 // Insert into the database
                 \App\PaymentLogs::create([                                         
                     'amount'=> $input['amount'],
+                    'plan'=> $input['plan'],
                     'charge_id'=>$charge->id,
                     'stripe_id'=>$unique_id,                     
                     'quantity'=>1
