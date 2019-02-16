@@ -39,7 +39,7 @@ class PaymentController extends Controller
             
                 // Charge to customer
                 $charge = \Stripe\Charge::create(array(
-                    'description' => 'SCPILLAI.COM - INNOVATING FOR GROWTH - '. $unique_id,
+                    'description' => "Plan: ".$input['plan']." - Amount: ".$input['amount'].' - '. $unique_id,
                     'source' => $request->stripeToken,                    
                     'amount' => (int)($input['amount'] * 100), // the mount will be consider as cent so we need to multiply with 100
                     'currency' => 'USD'
