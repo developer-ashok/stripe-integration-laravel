@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://laravel.com/assets/img/components/logo-laravel.svg">
-    <img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Stripe_logo%2C_revised_2016.png">
+    <img src="https://stripe.com/img/about/logos/logos/blue.png" heigt="100">
 </p>
 
 <p align="center">
