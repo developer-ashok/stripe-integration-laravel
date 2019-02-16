@@ -1,5 +1,7 @@
 <?php
 
+# Copy the code from below to that controller file located at app/Http/Controllers/PaymentController.php
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;

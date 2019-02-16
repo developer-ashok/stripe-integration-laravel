@@ -15,4 +15,5 @@ Route::get('/', function () {
     return view('pay');
 });
 
+# handle payment response from the backend side of it
 Route::post('/dopay', 'PaymentController@handleonlinepay')->name('dopay');
