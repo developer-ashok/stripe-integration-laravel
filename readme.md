@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://laravel.com/assets/img/components/logo-laravel.svg">
+    <img src="http://blog.legacyteam.info/wp-content/uploads/2014/10/laravel-logo-white.png"> +
     <img src="https://stripe.com/img/about/logos/logos/blue.png" heigt="100">
 </p>
 
