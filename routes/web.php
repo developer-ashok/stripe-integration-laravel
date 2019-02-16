@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pay');
 });
+
+Route::post('/dopay', 'PaymentController@handleonlinepay')->name('dopay');
